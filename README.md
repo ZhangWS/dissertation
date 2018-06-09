@@ -1,5 +1,5 @@
 # Code Repository for "Political Implications of Bilingual Cognition"
-##Dissertation submitted in partial fulfillment for a PhD in Political Science at the University of Illinois at Urbana-Champaign, 2018
+*Dissertation submitted in partial fulfillment for a PhD in Political Science at the University of Illinois at Urbana-Champaign, 2018*
 
 Rather hilariously, despite my interest in agent-based modeling (see GitHub repositories for conference papers featuring toy models) and machine learning (GitHub repositories forthcoming for personal and classroom projects), the research design for my dissertation ended up consisting of a series of survey experiments. 
 
