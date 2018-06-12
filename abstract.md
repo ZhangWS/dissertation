@@ -1,4 +1,4 @@
-#Dissertation Abstract
+# Dissertation Abstract
 
 Though more than two-thirds of all children around the world grow up in bilingual environments (Crystal 1997) and more than half of the world's population speak more than one language in everyday life (Grosjean 2010), political science continues to operate under a Chomskian scheme in which language is characterized as "a parsimonious symbol system, [or] a type of mental algebra" (Caldwell-Harris 2014, 2). Simply put, the prevailing assumptions are that language is transparent and trivial, and that no special evaluation of its impact independent of the plain meaning is required. Taken further, this paradigm implies that phrases from different languages will be understood exactly the same way, as long as they are faithful translational equivalents.
 
