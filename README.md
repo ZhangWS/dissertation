@@ -5,4 +5,6 @@ Rather hilariously, despite my interest in agent-based modeling (see GitHub repo
 
 The survey sample was a convenience sample of bilingual Chinese university students. The sample was convenient because I had limited access to a subset of university departments that would allow for the survey to be conducted.  Within each department, however, the treatment was randomly assigned.
 
-The combination of these factors effectively meant that my analysis consisted of a series of between-group analyses (in business terms, A/B testing). Though not methodologically the most exciting, I still had to present a careful analysis of my experimental data and present convincing visualizations to complement my narrative. 
+The combination of these factors effectively meant that my analysis consisted of a series of between-group analyses (in business terms, A/B testing). Though not methodologically sexy, I presented careful analyses of my experimental data and present convincing visualizations to complement my narrative. 
+
+Techniques used in my dissertation included data entry, data cleaning, and data exploration; data visualization with ggplot; lots and lots of two-way ANOVA, Chi-square tests, Fisher's Exact Test (and all the post hoc tests); ordered logit regression; ordinary least squares regression; Factor Analysis (Chapter 3) and Principle Component Analysis (Chapter 3).
