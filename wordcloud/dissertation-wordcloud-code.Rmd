@@ -1,0 +1,73 @@
+---
+title: "A very silly word cloud project"
+author: "Wenshuo Zhang"
+date: "April 26, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Starting code
+library(tm) #text mining
+library(SnowballC) #stemmers
+library(wordcloud) #what it says on the tin
+library(readtext) #for reading text files
+
+
+#this is where the project lives. Despite a very terse academic writing style, my personal life is
+#much more haphazard. I also converted all back slashes to forward slashes.
+
+setwd("C:/Users/Natalia/Desktop/Dissertation/zhang dissertation whole 12012017/R project for fun and profit")
+
+```
+
+## R Markdown
+This is cribbed almost entirely from https://datascienceplus.com/building-wordclouds-in-r/
+Because I wrote a cognitive psychology dissertation (more or less), the prose, especially Chapter 1,
+was highly uncharacteristic. Therefore, I wanted to find out what I sounded like
+
+
+```{r dissertation}
+
+#basic house keeping, read in, get basic info, find out Encoding Info
+dissertation <- readtext("zhang_dissertation_final.docx")
+typeof(dissertation) #found out that this is a list
+head(dissertation)
+Encoding(dissertation$text) #UTF-8, because Turkish diacritics are hilarious
+```
+##Procedure
+1. Simplify the data
+2. Process the hell out of it
+
+```{r text clean up}
+#VectorSource from tm serves up text from a vector
+#apparently Corpus needs this?
+
+dissert.text <- Corpus(VectorSource(dissertation$text))
+
+#convert corpus to LC
+
+dissert.text <- tm_map(dissert.text, content_transformer(tolower))
+
+#remove punctuations and stop words
+#stop words are commonly used words in the English language.
+
+dissert.text <- tm_map(dissert.text, removePunctuation)
+dissert.text <- tm_map(dissert.text, PlainTextDocument)
+dissert.text <- tm_map(dissert.text, removeWords, stopwords('english'))
+
+#take only word stems. I hope this is done correctly!
+
+#dissert.text <- tm_map(dissert.text, stemDocument)
+
+```
+
+##Recap
+
+Well, that was fun after a little hiccup. Now I'm going to produce a word cloud, apparently as a graphic!
+
+```{r production}
+
+wordcloud(dissert.text, max.words = 100, random.order = FALSE)
+```
