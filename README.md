@@ -2,6 +2,7 @@
 *Dissertation submitted in partial fulfillment for a PhD in Political Science at the University of Illinois at Urbana-Champaign, 2018*
 
 ![Word Cloud for my dissertation](https://github.com/ZhangWS/dissertation/blob/master/stemless.png)
+
 R Code available in word cloud directory.
 
 ##Introduction
