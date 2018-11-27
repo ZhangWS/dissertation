@@ -5,7 +5,7 @@
 
 R Code available in word cloud directory.
 
-##Introduction
+## Introduction
 
 Rather hilariously, despite my interest in agent-based modeling (see GitHub repositories for conference papers featuring toy models) and machine learning (GitHub repositories forthcoming for personal and classroom projects), the research design for my dissertation ended up consisting of a series of survey experiments. 
 
@@ -15,7 +15,7 @@ The combination of these factors effectively meant that my analysis consisted of
 
 Techniques used in my dissertation included data entry, data cleaning, and data exploration; data visualization with ggplot; lots and lots of two-way ANOVA, Chi-square tests, Fisher's Exact Test (and other fun parametric and non-parametric tests); ordered logit regression; ordinary least squares regression; Factor Analysis (Chapter 4) and Principle Component Analysis (Chapter 4).
 
-##For data and dissertation text
+## For data and dissertation text
 
 Dissertation text will be available at UIUC Ideal soon (I hope).
 Data is currently embargoed pending further cleaning of identifying information. Codebook available upon request after further cleaning as well.
