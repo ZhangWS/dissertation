@@ -17,5 +17,5 @@ Techniques used in my dissertation included data entry, data cleaning, and data 
 
 ## For data and dissertation text
 
-Dissertation text will be available at UIUC Ideal soon (I hope).
+Dissertation is available available at [UIUC Ideal](https://www.ideals.illinois.edu/handle/2142/100900).
 Data is currently embargoed pending further cleaning of identifying information. Codebook available upon request after further cleaning as well.
